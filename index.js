@@ -1,6 +1,6 @@
 var katzDeli = [];
 var count = 1;
-function takeANumber(katzDeliLine,name) {
+function takeANumber(katzDeli,name) {
   katzDeliLine.push(name);
   console.log("Welcome, " +  name + " You are number " + count + " in line.");
   count++;
