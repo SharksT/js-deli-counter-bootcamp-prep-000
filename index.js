@@ -4,3 +4,7 @@ function takeANumber(array,name) {
   var text = ("Welcome, " +  name + ". You are number " + array.lenght + " in line.");
   return text;
 }
+
+function nowServing(array) {
+  
+}
