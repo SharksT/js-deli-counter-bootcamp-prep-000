@@ -8,10 +8,10 @@ function takeANumber(array,name) {
 function nowServing(array) {
 
   if (array[0] != null ) {
-    array.shift();
+    
     var text1 = `Currently serving ` + array[0] + ".";
     return text1;
-
+    array.shift();
   }
   else {
    var text = "There is nobody waiting to be served!";
