@@ -28,7 +28,7 @@ var text;
     }
   }
   else {
-    console.log("The line is currently empty.");
+    text = "The line is currently empty.";
   }
   return text;
 }
