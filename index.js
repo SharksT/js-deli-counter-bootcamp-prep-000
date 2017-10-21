@@ -17,3 +17,7 @@ function nowServing(array) {
    return text;
   }
 }
+
+function currentLine() {
+  
+}
