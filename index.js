@@ -23,9 +23,10 @@ var fixed;
 var text = [];
   if (array != null)
   {
+    fixed = "The line is currently: "+ v +". " + array[i];
     for (var i = 0; i < array.length; i++) {
       var v = i + 1;
-      text = "The line is currently: "+ v +". " + array[i];
+      
     }
   }
   else {
