@@ -11,7 +11,7 @@ function nowServing(array) {
     array.shift();
     var text1 = `Currently serving ` + array[0] + ".";
     return text1;
-    
+
   }
   else {
    var text = "There is nobody waiting to be served!";
