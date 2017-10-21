@@ -28,9 +28,10 @@ var text = '';
       var v = i + 1;
       text = `$[v]  + $[array[i]]` + text;
     }
+    return fixed + text
   }
   else {
     text = "The line is currently empty.";
   }
-  return text;
+  return ;
 }
