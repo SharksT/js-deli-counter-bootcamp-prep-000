@@ -8,7 +8,8 @@ function takeANumber(array,name) {
 function nowServing(array) {
 
 if (array[0] != null ) {
-  return array[0];
+  var text1 = `Currently serving` + array[0]
+  return text1;
   delete array[0];
 }
 else {
