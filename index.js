@@ -15,5 +15,5 @@ if (array[0] != null ) {
 else {
  var text = "There is nobody waiting to be served!";
  return text;
-}
+    }
 }
