@@ -26,7 +26,7 @@ var text = '';
     fixed = "The line is currently: ";
     for (var i = 0; i < array.length; i++) {
       var v = i + 1;
-      text = `$[v]. $[array[i]],` + text;
+      text = `${v}. ${array[i]},` + text;
     }
     return fixed + text
   }
