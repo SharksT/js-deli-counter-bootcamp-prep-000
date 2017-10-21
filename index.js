@@ -21,7 +21,7 @@ function nowServing(array) {
 function currentLine(array) {
 var fixed;
 var text = '';
-  if (array != null)
+  if (array[0] != null)
   {
     fixed = "The line is currently: ";
     for (var i = 0; i < array.length; i++) {
