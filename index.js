@@ -9,10 +9,10 @@ function nowServing(array) {
 
 if (array[0] != NULL ) {
   return array[0];
-  delete array[0]
+  delete array[0];
 }
 else {
-  var text = "There is nobody waiting to be served!";
+  return var text = "There is nobody waiting to be served!";
 }
 
 
