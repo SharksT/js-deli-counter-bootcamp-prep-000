@@ -28,7 +28,7 @@ var text = '';
       var v = i + 1;
       text = text + `${v}. ${array[i]}` ;
       if ((array.length - 1) != i) {
-        text = text + ','
+        text = text + ', '
       }
     }
     return fixed + text
