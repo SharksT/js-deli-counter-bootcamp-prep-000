@@ -1,7 +1,7 @@
 var katzDeli = [];
-var count = 0;
+var count = 1;
 function takeANumber(katzDeliLine,name) {
 
   count++;
-  katzDeliLine.push(name)
+  katzDeliLine.push(name);
 }
