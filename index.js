@@ -18,6 +18,6 @@ function nowServing(array) {
   }
 }
 
-function currentLine() {
-  
+function currentLine(array) {
+
 }
