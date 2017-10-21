@@ -8,11 +8,12 @@ function takeANumber(array,name) {
 function nowServing(array) {
 
 if (array[0] != NULL ) {
-  return array[0]
+  return array[0];
+  delete array[0]
 }
 else {
-  var text = "There is nobody waiting to be served!"
+  var text = "There is nobody waiting to be served!";
 }
-delete array[0
+
 
 }
