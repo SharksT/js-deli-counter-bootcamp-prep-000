@@ -7,7 +7,7 @@ function takeANumber(array,name) {
 
 function nowServing(array) {
 
-  if (array[0] != null ) {
+  if (array != null ) {
     var text1 = `Currently serving ` + array[0] + ".";
     return text1;
     array.shift();
@@ -21,4 +21,7 @@ function nowServing(array) {
 function currentLine(array) {
 
   if (array != null)
+  {
+    
+  }
 }
