@@ -20,13 +20,12 @@ function nowServing(array) {
 
 function currentLine(array) {
 var fixed;
-var text = [];
+var text = '';
   if (array != null)
   {
     fixed = "The line is currently: ";
     for (var i = 0; i < array.length; i++) {
       var v = i + 1;
-      text = '';
       text = `$[v]  + $[array[i]]` + text;
     }
   }
