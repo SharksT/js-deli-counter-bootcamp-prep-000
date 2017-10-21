@@ -32,6 +32,6 @@ var text = '';
   }
   else {
     text = "The line is currently empty.";
+    return text
   }
-  return ;
 }
