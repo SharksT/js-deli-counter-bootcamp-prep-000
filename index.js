@@ -7,6 +7,10 @@ function takeANumber(array,name) {
 
 function nowServing(array) {
 
+if (array[0] != NULL ) {
+  
+}
+
 return array[0]
 delete array[0]
 
