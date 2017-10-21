@@ -22,6 +22,8 @@ function currentLine(array) {
 var text;
   if (array != null)
   {
-    
+    for (var i = 0; i < array.length; i++) {
+      console.log("The line is currently: " i+1 ". " + array[i]);
+    }
   }
 }
