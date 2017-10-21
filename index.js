@@ -20,4 +20,5 @@ function nowServing(array) {
 
 function currentLine(array) {
 
+  if (array != null)
 }
