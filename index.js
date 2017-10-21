@@ -19,6 +19,7 @@ function nowServing(array) {
 }
 
 function currentLine(array) {
+var fixed;
 var text = [];
   if (array != null)
   {
