@@ -23,6 +23,7 @@ var text;
   if (array != null)
   {
     for (var i = 0; i < array.length; i++) {
+      var v = i + 1;
       console.log("The line is currently: " i+1 ". " + array[i]);
     }
   }
