@@ -23,10 +23,10 @@ var fixed;
 var text = [];
   if (array != null)
   {
-    fixed = "The line is currently: "+ v +". " + array[i];
+    fixed = "The line is currently: ";
     for (var i = 0; i < array.length; i++) {
       var v = i + 1;
-      
+      text = `$[v]  + $[array[i]]`;
     }
   }
   else {
