@@ -12,7 +12,8 @@ if (array[0] != NULL ) {
   delete array[0];
 }
 else {
-  return var text = "There is nobody waiting to be served!";
+ var text = "There is nobody waiting to be served!";
+ return text
 }
 
 
