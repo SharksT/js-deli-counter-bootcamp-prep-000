@@ -24,10 +24,11 @@ var text;
   {
     for (var i = 0; i < array.length; i++) {
       var v = i + 1;
-      console.log("The line is currently: "+ v +". " + array[i]);
+      text = "The line is currently: "+ v +". " + array[i];
     }
   }
   else {
     console.log("The line is currently empty.");
   }
+  return text;
 }
