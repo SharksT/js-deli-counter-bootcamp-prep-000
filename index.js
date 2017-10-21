@@ -26,4 +26,7 @@ var text;
       console.log("The line is currently: " i+1 ". " + array[i]);
     }
   }
+  else {
+    console.log("The line is currently empty.")
+  }
 }
